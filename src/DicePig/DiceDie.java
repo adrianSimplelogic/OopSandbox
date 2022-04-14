@@ -49,6 +49,9 @@ public class DiceDie {
                 playerScore += bank;
                 System.out.println("POINTS SAVED FOR PLAYER!");
                 turnLost();
+            default:
+                System.out.println("Pick 1 or 2, no more no less...");
+                playerMove();
         }
     }
 
